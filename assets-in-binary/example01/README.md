@@ -7,7 +7,7 @@ This is a complete example to create a single binary with the
 
 ## How to use
 
-### Prepare Packages and Tool
+### Prepare Packages
 
 ```sh
 go get github.com/gin-gonic/gin
@@ -32,3 +32,8 @@ go build -o assets-in-binary
 ```sh
 ./assets-in-binary
 ```
+
+### 参考文档
+
+- [Go实战]gin整合[go-assets][vfsgen][docker]完整打包方案：https://blog.csdn.net/aaaadong/article/details/118155836
+

@@ -20,8 +20,8 @@ func main() {
 
 	router := gin.Default()
 	router.GET("/", func(c *gin.Context) {
-		time.Sleep(10 * time.Second)
-		c.String(http.StatusOK, "Welcome Gin Server")
+		time.Sleep(15 * time.Second)
+		c.String(http.StatusOK, "Welcome Gin Server 3")
 	})
 
 	srv := &http.Server{
