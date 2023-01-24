@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSONP</title>
+</head>
+<body>
+
+<h1>JSONP-Testing</h1>
+
+<script type="text/javascript">
+function sayHello(data){
+    alert(JSON.stringify(data));
+}
+</script>
+<script type="text/javascript" src="http://localhost:8080/JSONP?callback=sayHello"></script>
+
+</body>
+</html>

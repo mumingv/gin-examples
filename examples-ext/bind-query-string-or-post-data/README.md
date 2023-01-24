@@ -1,0 +1,6 @@
+- 测试命令： 
+
+```
+curl -X GET "localhost:8085/testing?name=appleboy&address=xyz&birthday=1992-03-15&createTime=1562400033000000123&unixTime=1562400033"
+```
+
